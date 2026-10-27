@@ -1,5 +1,3 @@
-# Gera js/perguntas-embutidas.js a partir do perguntas.json.
-# Rode sempre que editar o perguntas.json:  python gerar-embutido.py
 import json
 with open("perguntas.json", encoding="utf-8") as f:
     dados = json.load(f)
