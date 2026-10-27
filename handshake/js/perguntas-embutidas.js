@@ -1,5 +1,3 @@
-// Gerado por gerar-embutido.py — não edite à mão.
-// Reserva para quando o site é aberto sem servidor (file://).
 window.PERGUNTAS_EMBUTIDAS = [
   {
     "pergunta": "O que o HTTPS adiciona ao HTTP?",
