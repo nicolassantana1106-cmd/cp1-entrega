@@ -1,4 +1,3 @@
-// Handshake — lógica do quiz
 const LETRAS = ["A", "B", "C", "D", "E", "F"];
 
 const el = {
