@@ -1,4 +1,3 @@
-/* Handshake — CSS base (CP1) */
 :root {
   --fundo: #1e272e;
   --painel: #2f3640;
@@ -44,7 +43,6 @@ a { color: var(--destaque); }
 }
 .marca span { color: var(--destaque); }
 
-/* Botões */
 .botao {
   display: inline-block;
   min-height: 48px;
@@ -60,7 +58,6 @@ a { color: var(--destaque); }
 .botao:hover { background: #5dade2; }
 .botao[disabled], .botao[aria-disabled="true"] { opacity: 0.5; cursor: not-allowed; }
 
-/* Página inicial */
 .hero { padding-block: 3rem 2rem; display: grid; gap: 1.5rem; }
 .hero h1 { font-size: clamp(3rem, 14vw, 6.5rem); letter-spacing: -0.03em; }
 .hero .tema { color: var(--destaque); font: 600 1.25rem var(--fonte-titulo); }
@@ -74,7 +71,6 @@ a { color: var(--destaque); }
 
 [hidden] { display: none !important; }
 
-/* Tela de jogo */
 .jogo { display: grid; gap: 1rem; padding-block: 0.5rem 2.5rem; }
 .progresso {
   background: var(--painel);
@@ -121,7 +117,6 @@ a { color: var(--destaque); }
   background: rgba(0, 0, 0, 0.25);
   font: 700 0.9375rem var(--fonte-titulo);
 }
-/* Estados que o CP2 vai ativar via JavaScript */
 .alternativa.correta { background: var(--acerto); border-color: #fff; color: #0b2a06; }
 .alternativa.correta .letra { background: rgba(0, 0, 0, 0.18); }
 .alternativa.errada { background: var(--erro); border-color: #fff; color: #fff; }
